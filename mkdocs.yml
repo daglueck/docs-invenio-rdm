@@ -46,19 +46,21 @@ nav:
     - Troubleshooting: 'install/troubleshoot.md'
   - Customize:
     - Overview: 'customize/index.md'
-    - Styling:
-      - Overview: 'customize/styling.md'
-      - Change logo: 'customize/styling-logo.md'
-      - Change theme: 'customize/styling-theme.md'
-      - Change templates: 'customize/styling-templates.md'
+    - Look-and-feel:
+      - Overview: 'customize/look-and-feel/index.md'
+      - Change logo: 'customize/look-and-feel/logo.md'
+      - Change templates: 'customize/look-and-feel/templates.md'
+      - Change theme: 'customize/look-and-feel/theme.md'
     - Authentication: 'customize/authentication.md'
     - Sending emails: 'customize/emails.md'
     - Search:
       - Change facets/sorting: 'customize/search.md'
     - Vocabularies:
       - Overview: 'customize/vocabularies/index.md'
+      - Resource types: 'customize/vocabularies/resource_types.md'
       - Affiliations: 'customize/vocabularies/affiliations.md'
       - Names: 'customize/vocabularies/names.md'
+      - Funding: 'customize/vocabularies/funding.md'
       - Subjects: 'customize/vocabularies/subjects.md'
       - Users: 'customize/vocabularies/users.md'
     - Record landing page: 'customize/record_landing_page.md'
@@ -122,6 +124,7 @@ nav:
       - Members: 'reference/rest_api_members.md'
       - Requests: 'reference/rest_api_requests.md'
       - Users: 'reference/rest_api_users.md'
+      - Reviews: 'reference/rest_api_reviews.md'
       - Vocabularies: 'reference/rest_api_vocabularies.md'
       - OAI-PMH Sets: 'reference/rest_api_oaipmh_sets.md'
   - Releases:

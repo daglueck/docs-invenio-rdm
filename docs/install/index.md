@@ -12,7 +12,7 @@ This guide covers how to install InvenioRDM locally on your machine, how to setu
 
 #### [1. Install CLI tool](cli.md)
 
-Install the InvenioRDM CLI tool (see [reference](../reference/cli.md)):
+Install the InvenioRDM CLI tool (see [reference](../reference/cli.md)), e.g. via [`pip`](https://pip.pypa.io/en/stable/):
 
 ```console
 pip install invenio-cli
@@ -20,7 +20,12 @@ pip install invenio-cli
 
 #### [2. Check system requirements](requirements.md)
 
-Do read the [system requirements](requirements.md) section. There's important information related to supported versions.
+!!! info "Information on requirements"
+
+    Please do read the [system requirements](requirements.md) section!
+    There's important information related to supported versions.
+
+You can check if the proper requirements are installed via `invenio-cli`:
 
 ```console
 invenio-cli check-requirements --development
@@ -30,13 +35,13 @@ invenio-cli check-requirements --development
 
 Scaffold your InvenioRDM instance. Replace ``<version>`` with the version you want to install:
 
-- LTS release (for production systems): ``v6.0``
-- STS release (for feature previews): ``v8.0``
+- LTS release (for production systems): ``v9.0``
+- STS release (for feature previews): ``v9.0``
 
 ```
 invenio-cli init rdm -c <version>
 # e.g:
-invenio-cli init rdm -c v6.0
+invenio-cli init rdm -c v9.0
 ```
 
 You will be asked several questions. If in doubt, choose the default.

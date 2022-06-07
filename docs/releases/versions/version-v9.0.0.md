@@ -61,7 +61,8 @@ multiple members to a community. Members can be either people or groups:
 ![Community members](img/../v9.0/community-members.png)
 
 It's possible to disable support for group members via the ``COMMUNITIES_GROUPS_ENABLED``
-feature flag.
+feature flag. See the [groups](https://inveniordm.docs.cern.ch/customize/authentication/#groups)
+section to know how to integrate groups in your instance.
 
 #### Roles
 
@@ -115,6 +116,8 @@ owned by both the submitter and the community:
 ![Community review](v9.0/deposit-review1.png)
 
 ![Community review](v9.0/deposit-review2.png)
+
+See also the [Reviews REST API documentation](../../reference/rest_api_reviews.md).
 
 #### Backend
 
@@ -270,6 +273,8 @@ You could for instance decide to load CrossRef Funder Registry or ROR into the
 funder vocabulary, and the awards vocabulary could be loaded from the OpenAIRE
 grants database.
 
+See the [Funder and Award vocabularies documentation](../../customize/vocabularies/funding.md) for further details.
+
 ### User Experience (UX) improvements
 
 We have made a number of smaller UX improvements.
@@ -292,7 +297,7 @@ estate to display their information on.
 **Backend: Theme polishing**
 
 The InvenioRDM theme was refactored and cleaned up, providing better
-overridability for subthemes and instances. See [documentation](../../customize/styling.md) for further
+overridability for subthemes and instances. See [documentation](../../customize/look-and-feel/theme.md) for further
 details.
 
 ### OAI-PMH sets support
@@ -390,14 +395,7 @@ class UserSearchOptions(SearchOptions):
 
 ## Upgrading to v9.0
 
-!!! warning "Upgrade not yet supported"
-
-  We have unfortunately not managed to finalise the upgrade recipes to v9.0
-  at the time of the release. The release team is working hard to release the
-  upgrade instructions as fast as possible, and we expect to have finalised
-  the upgrade recipe latest by June 1st 2022.
-
-Please see the [upgrade notice](../upgrading/upgrade-v9.0.md).
+We support upgrading from v8.0 to v9.0. Please see the [upgrade notice](../upgrading/upgrade-v9.0.md).
 
 ## Maintenance policy
 
